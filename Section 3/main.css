@@ -1,0 +1,44 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+    }
+
+    #product-overview {
+        background: #540694;
+        width: 100%;
+        height: 500px;
+        padding: 10px;
+    }
+    
+    .section-title {
+        color: #6260d8;
+    }
+    
+    #product-overview h1 {
+         color: #2ecf9f;
+    }
+
+    .main-header {
+        width: 100%;
+        background: #9cfde0;
+        padding: 5px 10px;
+    }
+
+/* Here, the div and the nav which are children of the header,
+get aligned thanks to inline-block */
+    .main-header > div {
+        display: inline-block;
+    }
+
+    .main-nav {
+        display: inline-block;
+        text-align: right;
+    }
+
+    .main-nav__item {
+        display: inline-block;
+    }
