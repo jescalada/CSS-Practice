@@ -1,0 +1,66 @@
+    main {
+        padding-top: 32px;
+    }
+
+    .package {
+        width: 80%;
+        margin: 16px 0;
+        border: 4px solid #117c6a;
+        border-radius: 32px;
+        
+    }
+
+    .package a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        padding: 32px;
+    }
+
+    .package:hover,
+    .package:active {
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+        border-color: tomato;
+    }
+
+    .package__title {
+        text-align: center;
+    }
+
+    .package__subtitle {
+        color: #888;
+        text-align: center;
+    }
+
+    .package__info {
+        padding: 16px;
+        font-size: 20px;
+        color: rgb(3, 63, 57);
+        background: white;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+    #plus {
+        background: rgba(123, 212, 208, 0.95);
+    }
+    
+    #free {
+        background: rgba(168, 223, 220, 0.95);
+        float: right;
+    }
+    
+    #premium {
+        background: rgba(118, 240, 199, 0.95);
+    }
+
+    #premium .package__title {
+        color: white;
+        font-size: 32px;
+    }
+
+    #premium .package__subtitle {
+        color: rgb(109, 109, 109);
+    }
