@@ -2,12 +2,19 @@
         padding-top: 32px;
     }
 
+    .background {
+        background: url("../bg_plans.jpg");
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+
     .package {
         width: 80%;
         margin: 16px 0;
         border: 4px solid #117c6a;
         border-radius: 32px;
-        
     }
 
     .package a {
